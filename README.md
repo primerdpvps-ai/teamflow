@@ -8,7 +8,9 @@ TeamFlow is a comprehensive team monitoring, time tracking, and payroll manageme
 ```
 teamflow/
 ├── teamflow.php (Main plugin file)
+├── uninstall.php
 ├── includes/
+│   ├── class-teamflow-logger.php
 │   ├── class-teamflow-database.php
 │   ├── class-teamflow-timer.php
 │   ├── class-teamflow-monitoring.php
